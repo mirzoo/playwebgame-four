@@ -1,16 +1,62 @@
 .info
-    height: 80vh
     &-wrap
         display: flex
         flex-direction: column
         align-content: center
-        padding: 150px 10px
+        padding: 10px 10px
         padding-bottom: 100px
     &-text
         font-size: 14px
         color: #aaaaaa
         font-weight: 400
 
+.contact
+    &-wrap
+        padding: 150px 0px
+    &-title
+        font-size: 40px
+        font-weight: 700
+        color: #E8E8E8
+        text-align: center
+        margin-bottom: 32px
+    &-form
+        &__wrap
+            display: flex
+            flex-direction: column
+        &__name
+            padding: 16px
+            border-radius: 16px
+            border: none
+            color: #E8E8E8
+            background-color: #183e2c
+            margin-bottom: 16px
+        &__email
+            padding: 16px
+            border-radius: 16px
+            border: none
+            color: #E8E8E8
+            background-color: #183e2c
+            margin-bottom: 16px
+        &__msg
+            padding: 16px
+            border-radius: 16px
+            border: none
+            color: #E8E8E8
+            background-color: #183e2c
+            margin-bottom: 16px
+        &__btn
+            color: #E8E8E8
+            background-color: #317655
+            border-radius: 16px
+            border: none
+            padding: 14px 32px
+            font-size: 16px
+            font-weight: 700
+            transition: 0.2s
+            &:hover
+                border: #52A57D
+                background-color: rgba(82, 165, 125, 1)
+                box-shadow: 0px 8px 16px rgba(75, 184, 132, 0.31)
 
 @media (max-width: 320px)
     .support
